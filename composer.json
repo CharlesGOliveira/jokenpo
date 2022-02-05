@@ -1,0 +1,19 @@
+{
+  "name": "vendor_name/jokenpo",
+  "description": "Pedra, papel e tesoura",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Charles",
+      "email": "charles.gsoliveira@gmail.com"
+    }
+  ],
+  "require": {
+  },
+  "autoload": {
+    "psr-4": {
+      "Gesture\\": "src/"
+    }
+  }
+}
